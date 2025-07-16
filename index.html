@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css"/>
+    <link rel="stylesheet" href="sidebar.css"/>
+    <link rel="stylesheet" href="habilidades.css"/>
+    <link rel="stylesheet" href="imagenes.css">
+    <link rel="stylesheet" href="contacto.css">
+
+</head>
+<body>
+    <div class="sidebar">
+      <div class="foto-portada-sidebar">
+        <img src="Imagenes/yo.jpg" alt="">
+      </div>
+      <a href="#proyectos">
+        <div class="item">
+          <h4>Proyectos</h4>
+        </div>
+      </a>
+      <a href="#educacion">
+        <div class="item">
+          <h4>Educación</h4>
+        </div>
+      </a>
+      <a href="#habilidades">
+        <div class="item">
+          <h4>Habilidades</h4>
+        </div>
+      </a>
+      <a href="#contacto">
+        <div class="item">
+          <h4>Contacto</h4>
+        </div>
+      </a>
+    </div>
+    <section id="intro">
+      <div class="reveal">
+        <h1>Hola, mi nombre es Francisco</h1>
+        <p>Soy Ingenierio Informático y amante de la tecnología! Me gustan los videojuegos 
+        <br>(Sí, un poco cliché), el deporte, la música y un poco la lectura. Espero que disfrutes de mi
+        <br>portafolio tanto como a mi desarrollarlo! Cualquier cosa, no dudes en contactarme más abajo.
+        <div class="contacto-inicio-container">
+          <a href="https://github.com/franciscoserrano-cmd">
+            <div class="logo-contacto-inicio-container">
+              <img class="img-logo-contacto-inicio-container" src="Imagenes/github.png" alt="">
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/francisco-serrano-13183a374/">
+            <div class="logo-contacto-inicio-container">
+              <img class="img-logo-contacto-inicio-container" src="Imagenes/linkedin.png" alt="">
+            </div>
+          </a>
+          <a href="https://github.com/franciscoserrano-cmd">
+            <div class="logo-contacto-inicio-container">
+              <img class="img-logo-contacto-inicio-container" src="Imagenes/cv.png" alt="">
+            </div>
+          </a>
+        </div>
+      </div>
+      <br>
+    </section>
+    <hr>
+    <section id="proyectos">
+      <h1>PROYECTOS</h1>
+      <div class="reveal">
+        <div class="proyecto-container">
+            <div class="imagen-proyecto-container">
+              <img class="img-portada-proyecto-container" src="Imagenes/proyecto-tienda.png" alt="">
+            </div>
+            <div class="desc-proyecto-container">
+              <h3 class="titulo-desc-proyecto-container">Tienda</h3>
+              <p class="parrafo-desc-proyecto-container">Tienda de articulos tecnológicos con pasarela de pago Stripe.</p>
+              <p class="parrafo-desc-proyecto-container">Proyecto personal.</p>
+              <img class="img-skill-desc-proyecto-container" src="Imagenes/css-3.png" alt="">
+              <img class="img-skill-desc-proyecto-container" src="Imagenes/html-5.png" alt="">
+              <img class="img-skill-desc-proyecto-container" src="Imagenes/icons8-javascript-48.png" alt="">
+              <img class="img-skill-desc-proyecto-container" src="Imagenes/express.png" alt="">
+              <img class="img-skill-desc-proyecto-container" src="Imagenes/node.png" alt="">
+            </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <section id="educacion">
+      <h1>EDUCACION</h1>
+      <div class="reveal">
+        <span><img src="Imagenes/marca-de-verificacion.png" alt="marca-de-verificacion"> Tecnico en Programacion y Analisis de Sistemas</span>
+        <span style="float: right; margin-right: 150px; font-size: smaller; color: #00CED1;">2018-2023</span>
+        <p>Instituto AIEP</p>
+        <span><img src="Imagenes/marca-de-verificacion.png" alt="marca-de-verificacion"> Ingenieria en Ejecución Informática mencion Desarrollo de Sistemas</span>
+        <span style="float: right; margin-right: 150px; font-size: smaller; color: #00CED1;">2023-2024</span>
+        <p>Instituto AIEP</p>
+        <span><img src="Imagenes/marca-de-verificacion.png" alt="marca-de-verificacion"> Curso Python Total</span>
+        <span style="float: right; margin-right: 150px; font-size: smaller; color: #00CED1;">2023</span>
+        <p>Plataforma de Aprendizaje Udemy</p>
+        <span><img src="Imagenes/marca-de-verificacion.png" alt="marca-de-verificacion"> Curso JavaScript Total</span>
+        <span style="float: right; margin-right: 150px; font-size: smaller; color: #00CED1;">2024</span>
+        <p>Plataforma de Aprendizaje Udemy</p>
+      </div>
+    </section>
+    <hr>
+    <section id="habilidades" class="habilidades">
+        <h1>HABILIDADES</h1>
+        <div class="reveal">
+          <div class="img-skill"><img src="Imagenes/html-5.png">
+          <figcaption>HTML</figcaption></div>
+          <div class="img-skill"><img src="Imagenes/css-3.png">
+          <figcaption>CSS</figcaption></div>
+          <div class="img-skill"><img src="Imagenes/mysql.png">
+          <figcaption>MySql</figcaption></div>
+        </div>
+        <br>
+    </section>
+    <hr>
+    <section id="contacto">
+        <div class="contacto-container">
+                    <h1>CONTACTO</h1>
+                    <div class="reveal">
+                        <form class="contacto-formulario" id="contactForm" action="https://formsubmit.co/franciscoserrano.pda@gmail.com" method="POST">
+                            <div class="column-left">
+                                <input type="text" placeholder="Nombre" id="name" name="name" required>
+                                <input type="email" placeholder="Correo" id="email" name="email" required>
+                                <input type="tel" placeholder="Telefono" id="phone" name="phone" required>
+                                <button class="button-form" type="submit">Enviar</button>
+                            </div>
+                            <div class="textarea-contacto-container">
+                                <textarea class="comentario-contacto" required placeholder="Escriba aquí su mensaje..." id="subject" name="comentario" required></textarea>
+                            </div>
+                            <div class="list-info-contact-container">
+                                <ul>
+                                    <h2>Informacion Contacto</h2>
+                                    <li><p>Fono: +569 82818443</p></li>
+                                    <li><p>franciscoe.serranopineda@gmail.com</p></li>
+                                    <li><p>Araucanía, Temuco</p></li>
+                                </ul>
+                            </div>
+                        </form>
+                    </div>
+                  </div>
+    </section>
+    <br>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+.habilidades img{
+    height: 50px;
+    width: 50px;
+}
+
+.img-skill{
+    height: 15px;
+    width: 100px;
+    display: inline-block; 
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.img-skill figcaption{
+    font-size: 0,8em;
+    color: #555;
+    margin-top: 10px;
+    transition: color 0.3s ease;
+}
+
+.img-skill:hover{
+    transform: scale(1.1);
+}
+
+
+
+
