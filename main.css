@@ -1,22 +1,4 @@
 
-/*fuentes*/
-@font-face{
-    font-family: 'Montserrat';
-    src:url(fuentes/Montserrat/Montserrat-VariableFont_wght.ttf);
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Roboto_Condensed';
-    src: url(fuentes/Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf);
-    font-weight: normal;
-    font-style: normal;
-}
-/*cierra fuentes*/
-
-
-
 *{
     text-decoration: none;
 }
@@ -31,7 +13,7 @@ body{
 }
 
 h1{
-    font-family: 'Montserrat';
+    font-family: 'Montserrat',sans-serif;
     color: #002B5C;
     font-size: xx-large;
 }
@@ -52,7 +34,7 @@ h4{
 }
 
 p{
-    font-family: 'Roboto_Condensed';
+    font-family: 'Roboto_Condensed',sans-serif;
     color: #666666;
 }
 
