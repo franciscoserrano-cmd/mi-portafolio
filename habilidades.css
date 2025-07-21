@@ -1,27 +1,28 @@
 .habilidades img{
-    height: 50px;
-    width: 50px;
-}
-
-.img-skill{
     height: 15px;
-    width: 100px;
-    display: inline-block; 
-    text-align: center;
-    transition: transform 0.3s ease;
+    width: 15px;
 }
 
-.img-skill figcaption{
-    font-size: 0,8em;
-    color: #555;
-    margin-top: 10px;
-    transition: color 0.3s ease;
+.skill-container{
+    display: flex;
+    gap: 10px;
+    margin-left: 30px;
 }
 
-.img-skill:hover{
-    transform: scale(1.1);
+.img-skill-container{
+    height: 15px;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    border: solid 1px;
+    padding: 5px;
 }
 
-
-
+.desc-skill-container{
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
 
