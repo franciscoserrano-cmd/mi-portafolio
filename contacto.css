@@ -30,3 +30,30 @@
 .button-form{
     height: 50px;
 }
+
+.list-info-contact-container{
+    margin-top: -20px;
+}
+
+.list-info-contact-container img{
+    width: 20px;
+    height: 20px;
+}
+
+.icon-list-info-contact-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.icon-list-info-contact-container button{
+    width: 20px;
+    height: auto;
+    padding: 0;
+}
+
+.icon-list-info-contact-container button img{
+    width: 15px;
+    height: auto;
+    padding: 0;
+}

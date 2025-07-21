@@ -13,3 +13,10 @@ function revealOnScroll(){
 
 window.addEventListener('scroll', revealOnScroll);
 window.addEventListener('load', revealOnScroll);
+
+function copiarTexto() {
+    const texto = document.getElementById("textoCopiado").innerText;
+    navigator.clipboard.writeText(texto).then(() => {
+      alert("Texto copiado: " + texto);
+    });
+  }
