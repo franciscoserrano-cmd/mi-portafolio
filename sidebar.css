@@ -9,6 +9,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: transform 0.3s ease;
 }
 
 .sidebar h4{
