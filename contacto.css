@@ -17,6 +17,7 @@
 
 .textarea-contacto-container{
     margin-left: 30px;
+    
 }
 
 .comentario-contacto{
@@ -28,6 +29,11 @@
 }
 
 .button-form{
+    height: 50px;
+    display: none;
+}
+
+.button-form-2{
     height: 50px;
 }
 
@@ -56,4 +62,39 @@
     width: 15px;
     height: auto;
     padding: 0;
+}
+
+@media (max-width: 768px) {
+    .contacto-formulario{
+        display: block;
+    }
+
+    .textarea-contacto-container{
+        width: 200px;
+        margin-left: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .list-info-contact-container{
+        margin-top: 20px;
+        margin-left: -40px;
+    }
+
+    .comentario-contacto{
+        font-family: "Agdasima", sans-serif;
+        font-weight: 400;
+        height: 120px;
+        width: 200px;
+        resize: vertical;
+    }
+
+    .button-form{
+        display: block;
+    }
+
+    .button-form-2{
+        height: 50px;
+        display: none;
+    }
 }
