@@ -20,7 +20,7 @@ function copiarTexto() {
       alert("Texto copiado: " + texto);
     });
   }
-
+  
     const toggleBtn = document.querySelector('.menu-toggle');
     const sidebar = document.querySelector('.sidebar');
 
