@@ -3,26 +3,22 @@
     width: 15px;
 }
 
-.skill-container{
+.img-skill-cont{
     display: flex;
-    flex-wrap: wrap;
     gap: 10px;
     margin-left: 30px;
 }
 
-.img-skill-container{
+.img-skill{
     height: 30px;
     max-width: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 2px;
-    border: solid 1px;
-    padding: 5px;
 }
 
-.desc-skill-container{
+.desc-skill-cont{
     align-items: center;
     justify-content: center;
-    padding: 5px;
 }

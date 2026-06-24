@@ -90,16 +90,19 @@ section{
 }
 
 .proyecto-container{
-    display: flexbox;
-    flex-direction: column;
-    border-radius: 10px;
-    height: 300px;
-    width: 250px;
-    transition: box-shadow 0.5s ease;
-    border: solid 1px;
+    display: flex;
+    gap: 20px;
 }
 
-.proyecto-container:hover{
+.proyecto{
+    border: solid 1px;
+    border-radius: 10px;
+    transition: box-shadow 0.5s ease;
+    height: 400px;
+    width: 300px;
+}
+
+.proyecto:hover{
     box-shadow: 0 0 10px #0994a3;
     opacity: 1;
 }
@@ -114,9 +117,9 @@ section{
 }
 
 .img-portada-proyecto-container{
-    height: 60%;
+    height: 160px;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .img-skill-desc-proyecto-container{
@@ -131,6 +134,19 @@ section{
 
 .parrafo-desc-proyecto-container{
     margin: 0 0 5px 0;
+}
+
+.links-proyecto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.links-proyecto img{
+    width: 30px;
+    height: 30px;
 }
 
 .reveal {
