@@ -29,10 +29,19 @@ main{
     z-index: 1000;
 }
 
+.inicioPortafolio h1{
+    margin-bottom: 10px;
+}
+
+.inicioPortafolio p{
+    max-width: 800px;
+}
+
 h1{
     font-family: 'Montserrat',sans-serif;
     color: #002B5C;
     font-size: xx-large;
+    margin-bottom: 80px;
 }
 
 h2{
@@ -46,7 +55,7 @@ h3{
 }
 
 h4{
-    font-family: 'Roboto_Condensed',sans-serif;
+    font-family: 'Roboto_Condensed', sans-serif;
     font-size: small;
 }
 

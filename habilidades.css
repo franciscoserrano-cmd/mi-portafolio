@@ -1,13 +1,18 @@
 .skill-container{
     display: flex;
     justify-content: flex-start;
+    gap: 50px;
 }
 
 .skill-container figure{
     text-align: center;
+    width: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+    margin: 0;
 }
 
 .skill-container figure img{
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
 }
