@@ -122,10 +122,29 @@ section{
     border-radius: 10px;
 }
 
-.img-skill-desc-proyecto-container{
-    margin-top: 15px;
+.habilidades img{
+    height: 15px;
+    width: 15px;
+}
+
+.img-skill-cont{
+    display: flex;
+    gap: 10px;
+    margin-left: 30px;
+}
+
+.img-skill{
     height: 30px;
-    width: 30px;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.desc-skill-cont{
+    align-items: center;
+    justify-content: center;
 }
 
 .titulo-desc-proyecto-container{

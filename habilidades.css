@@ -1,24 +1,13 @@
-.habilidades img{
-    height: 15px;
-    width: 15px;
-}
-
-.img-skill-cont{
+.skill-container{
     display: flex;
-    gap: 10px;
-    margin-left: 30px;
+    justify-content: flex-start;
 }
 
-.img-skill{
+.skill-container figure{
+    text-align: center;
+}
+
+.skill-container figure img{
     height: 30px;
-    max-width: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2px;
-}
-
-.desc-skill-cont{
-    align-items: center;
-    justify-content: center;
+    width: 30px;
 }
