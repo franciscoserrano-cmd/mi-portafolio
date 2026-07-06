@@ -1,7 +1,7 @@
 .skill-container{
     display: flex;
     justify-content: flex-start;
-    gap: 50px;
+    gap: 15px 40px;
     flex-wrap: wrap;
 }
 
